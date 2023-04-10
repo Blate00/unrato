@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catálogo en línea</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Catálogo en línea</h1>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Productos</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+	</nav>
+	
+	<main>
+		<form action="Satisf.html" enctype="multipart/form-data" method="get" name="contacto">       
+            <p>
+              <label for="nombre" >Nombre:</label>
+              <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+            </p>
+              
+            <p>
+              <label for="email" >Contraseña:<span ></span></label>
+              <input type="password" name="password" id="email" required="obligatorio" placeholder="**********">
+            </p>
+            
+            <p>
+              <label for="telefone" >Teléfono:</label>
+              <input type="number" name="telefono" id="telefono" placeholder="Escribe tu teléfono">
+            </p>    
+               
+            <p>
+				<label for="frutas">Ciudad:</label>
+				<select id="frutas" name="frutas">
+					<option value="#">Su ciudad es</option>
+				  <option value="PuertoMontt">Puerto Montt</option>
+				  <option value="PuertoVaras">Puerto Varas</option>
+				  <option value="Osorno">Osorno</option>
+				  <option value="LLanquihue">LLanquihue</option>
+				</select>
+				
+            </p>    
+              
+            <p class="mensaje">
+              <label for="mensaje" >Mensaje:<span ></span></label>                     
+              <textarea name="introducir_mensaje" id="mensaje"type="textarea"placeholder="Deja aquí tu comentario..."></textarea> 
+            </p>                    
+              
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+            <p class="aviso">
+              <span class="obligatorio">      * los campos son obligatorios.</span>
+            </p>        
+			
+			
+			
+          </form>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Catálogo en línea</p>
+	</footer>
+</body>
+</html>
